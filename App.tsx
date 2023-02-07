@@ -45,7 +45,7 @@ function App() {
 
          <TextInput 
          style={styles.input}
-          // value={task}
+          // value={task} -> got to fix this to clear input box upon sending the text.
           onChangeText={text => setTask(text)}> </TextInput>
          <TouchableOpacity onPress={() =>  handleAddTask()}>
           <View style={styles.addWrapper}>
